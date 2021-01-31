@@ -15,3 +15,5 @@
 1. [EGG 란?](https://m.blog.naver.com/euleekwon/221234113440)
 2. [EEG 스터디, EPR Recording의 기초 원리](https://bdsquaredblog.wordpress.com/2016/07/27/eeg-스터디-1-erp-recording의-기초-원리/)
 3. [BCI 기술 개요](https://www.koreascience.or.kr/article/CFKO201826259815678.pdf)
+4. [brain computer interface to control windows os presentation](https://www.slideshare.net/digilvinoy1/brain-computer-interface-to-control-windows-os-presentation)
+5. [P300신호](https://m.blog.naver.com/PostView.nhn?blogId=msnayana&logNo=80167514528&proxyReferer=https:%2F%2Fwww.google.com%2F)

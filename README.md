@@ -1,5 +1,7 @@
 # 🍯 BCI 스터디 자료 저장소
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/comojin1994/BCI-study&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=꿀단지방문자&edge_flat=false)](https://hits.seeyoufarm.com)
+<a href="https://github.com/comojin1994/BCI-study">
+  <img src="https://badges.pufler.dev/visits/comojin1994/BCI-study?style=flat-square&color=black&logo=github">
+</a>
 
 한번했던 구글링을 다시 하지 않기 위한 🍯자료 링크 저장소
 
@@ -9,3 +11,7 @@
   - [1st](#first)
 
 ### First
+> PRML BCI 세미나 첫번째 발표, Brain Computer Interfaces, a Review
+1. [EGG 란?](https://m.blog.naver.com/euleekwon/221234113440)
+2. [EEG 스터디, EPR Recording의 기초 원리](https://bdsquaredblog.wordpress.com/2016/07/27/eeg-스터디-1-erp-recording의-기초-원리/)
+3. [BCI 기술 개요](https://www.koreascience.or.kr/article/CFKO201826259815678.pdf)

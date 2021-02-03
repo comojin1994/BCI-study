@@ -9,6 +9,7 @@
 
 ## Contents
   - [1st](#first)
+  - [2nd](#second)
 
 ### First
 > PRML BCI 세미나 첫번째 발표, Brain Computer Interfaces, a Review
@@ -23,3 +24,7 @@
 9. [Wavelet transform](https://seoncheolpark.github.io/book/_book/21-4-wavelet-transform.html)
 10. [Wavelet 등장 배경 및 개념](https://clavez.tistory.com/54)
 11. [Deep learning을 적용한 EEG 연구](https://www.slideshare.net/DonghyeonKim7/eeg-102812945)
+
+### Second
+> PRML BCI 세미나 두번째 발표, Motor Imagery for Severely Motor-Impaired Patients: Evidence for Brain-Computer Interfacing as Superior Control Solution
+1. [butterworth 필터](https://www.netinbag.com/ko/science/what-is-the-butterworth-filter.html)

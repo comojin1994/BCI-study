@@ -1,9 +1,10 @@
 # Quadcopter flight control using a low-cost hybrid interface with EEG-based classification and eye tracking
 
-1. Conference or journal (IF): Computers in Biology and Medicine (Comput. Biol. Med.) (Q3)
+1. Conference or journal (Quantile): Computers in Biology and Medicine (Comput. Biol. Med.) (Q3)
 2. Year : 2014
 3. 1st author :Byung Hyung Kim
-4. Professor : Sungho Jo (KAIST 전산학부)
+4. Professor : Sungho Jo
+5. Univ.: KAIST
 
 ## Goal
 
@@ -62,16 +63,17 @@
 
 ## Discussion
 
-    * Competitive performances of the hybrid interface compared to the keyboard-based system
+    * Competitive performance of hybrid interfaces compared to the keyboard-based systems*
     * The issue about artifacts in EEG data from eye movements
     	* Incomplete noise removal algorithm
-    * Differentiated advantage of eye tracking-based system
+    * Improvement of performance by fusing both advantage of eye tracking-based system and BCI system
     * Inconsistent EEG pattern problem due to fatigue and anxiety
 
 ## Limitation, opinion
 
     * 방향이동이 직관적이지 않다
-    * AUC를 계산할 때 정답에 대한 정의가 분명하지 않다
-    	* 가상환경에서의 실험도 BCI로 했으면 정확도가 높을 수 밖에 없을것 같음
+    	* 대각선 움직임에 제한이 있음
     * 눈이 깜빡일때도 상상에 대한 데이터가 포함되어 있을텐데 ICA를 사용하여도 데이터 손실이 있지 않을까
+    	* 해당 클래스의 신호의 어디를 집중하는지 알 수 없다
+    	* 어디를 집중하는지 알면 데이터의 양과 질, 및 해석을 할 수 있음
     * 긴장도에 따라 피험자의 안구의 움직임이 불안정해 질 수 있음

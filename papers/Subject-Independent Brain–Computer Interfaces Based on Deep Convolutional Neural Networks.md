@@ -33,7 +33,25 @@
     		* 6 s for rest
     		* experiment is composed of an offline and an online phase
     * Spectral-Spatial Feature Representation (SSFR)
-    	*
+    	* Spectral-Spatial Input generation
+    		* bandpass-filtered with 5-order Butterworth filter (Use of bands in reference to. previous findings)
+    		* Usage of CSP
+    		* Get variance of the spatially filtered signal and re-ordered the band by using mutual information
+    		* Select top 20 csp filters based on re-ordered band
+    		* get covariance matrix
+    	* Feature Representation Using CNN
+    		* Construct CNN model to learn representation from a set of spectral-spatial inputs
+    	* Feature fusion and classification
+    		* integration of all the segments data that contain the discriminant ERD patterns in the brain signals
+    	* Performance evaluation
+    		* subject-independent: fused model, MR FBCSP, pooled CSP
+    		* subject-dependent: CSP, CSSP, FBCSP, BSSFO
+    		* classifier: LDA
+    		* Train-test-split
+    			* subject-independent: leave-one-subject-out cross-validation
+    			* subject-dependent: session2 1st-offline training, session2 2nd-online testing
+
+[image:31C0C790-3362-4BE3-9A89-4924F7AF18C1-816-0000177048A41D65/스크린샷 2021-03-15 오후 4.19.09.png]
 
 ## Experiments
 
@@ -43,4 +61,5 @@
 
 ## Limitations
 
-    *
+    * 여러 CNN branch를 구성함으로 계산의 비효율성 증가
+    * subject의 수와 정확도의 상관관계가 없음

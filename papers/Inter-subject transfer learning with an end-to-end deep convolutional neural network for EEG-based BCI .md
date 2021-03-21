@@ -18,6 +18,17 @@
 
 ## Methods
 
+    * Data acquitision
+    	* 120 healthy subjects with Stroop color test (frontal area)
+    * Data preprocessing
+    	* 2 s sliding window with 50 % overlapping
+    	* Max 100 mv amplitude
+    	* above 0.5 Hz
+    * Input representation
+    	* Raw EEG with default data preprocessing
+    	* Raw EEG with default data preprocessing + 0.5-40 Hz band-pass filter
+    	* Raw EEG with default data preprocessing + classical bands
+
 ## Experiments
 
 ## Results

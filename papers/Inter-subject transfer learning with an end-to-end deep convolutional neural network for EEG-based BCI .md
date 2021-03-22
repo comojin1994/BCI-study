@@ -18,7 +18,7 @@
 
 ## Methods
 
-    * Data acquitision
+    * Data acquisition
     	* 120 healthy subjects with Stroop color test (frontal area)
     * Data preprocessing
     	* 2 s sliding window with 50 % overlapping

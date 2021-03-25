@@ -1,6 +1,6 @@
 # Inter-subject transfer learning with an end-to-end deep convolutional neural network for EEG-based BCI
 
-1. Conference or journal (Quartile): Journal of Neural Engineering (Q1, 17%)
+1. Conference or journal (Quantile): Journal of Neural Engineering (Q1, 17%)
 2. Year : 2019
 3. 1st author : Fatemeh Fahimi
 4. Professor : Cuntai Guan
@@ -76,10 +76,14 @@
 
 ## Limitations
 
-    * 2nd Baseline으로 Chebyshev type 2를 쓴 이유 -> 대체적으로 type I를 씀
-    * 멀티 채널결과가 더 낮음 or 직접적인 비교가 안됨
-    * subject adaptation의 문제
+    * 2nd Baseline으로 Chebyshev type 2를 쓴 이유 -> 대체적으로 type I를 씀 #질문#
+    * -멀티 채널결과가 더 낮음 or 직접적인 비교가 안됨-
+    * subject adaptation의 test 데이터 사용 문제
     * Hyperparameter 튜닝 문제
     * 베타밴드와 세타 밴드에서 유의한 차이를 시각적으로 확인하였으면 input representation에 따라 통계적으로 유의미한 결과를 확인했어야 하는것이 아닌가?
-    * zero-training vs subject-independent
-    * 6-norm을 사용한이유?
+    * GAN의 효용성이 증명되었다고 할 수 있는지?
+    * zero-training vs subject-independent #질문
+    * 6-norm을 사용한이유? #질문
+    * 시각화 과정에서 activation이 의미하는것은? #질문
+
+#BCI 논문리뷰#

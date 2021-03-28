@@ -85,3 +85,8 @@
     * Use of pertained model
     * frequency 별 정확도에서 최고치랑 classification 정확도랑 다름
     * (추가)여러 채널을 사용하는것으로 인해 발생하는 상용화 문제
+    * (추가) CSP 필터를 통해 데이터를 추출할때 정보의 손실이 발생 할 수 있음
+    * (추가) 제로 패딩의 의미
+    * (추가) subject-dependent 에서의 모델의 유의미하지 않음
+
+#BCI 논문리뷰#
